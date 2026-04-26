@@ -1,4 +1,4 @@
-import Todo from "../components/Todo";
+import Todo from "../components/todo/Todo";
 
 
 const HomePage = () => {

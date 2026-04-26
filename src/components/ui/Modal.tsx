@@ -10,14 +10,12 @@ const Modal = ({ isOpen, onClose, children }: ModalProps) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center">
       
-      {/* overlay */}
       <div 
         className="absolute inset-0 bg-black/50"
         onClick={onClose}
       />
 
-      {/* modal content */}
-      <div className="relative bg-white rounded-2xl shadow-lg p-6 w-full max-w-md z-10">
+      <div className="relative bg-gray-800 text-white rounded-2xl shadow-lg p-6 w-full max-w-md z-10">
         
 
         {children}

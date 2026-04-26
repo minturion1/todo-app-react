@@ -17,10 +17,9 @@ const ProgressBar = (props: Props) => {
                 <span>100%</span>
             </div>
 
-            {/* сам прогресбар */}
-            <div className="w-full bg-gray-200 h-4 relative">
+            <div className="w-full bg-gray-600 h-4 relative rounded">
                 <div 
-                    className="bg-green-500 h-4 transition-all duration-300 flex items-center justify-center text-xs text-white"
+                    className="bg-green-600 h-4 transition-all rounded duration-300 flex items-center justify-center text-xs text-white"
                     style={{ width: `${percent}%` }}
                 >
                     {percent > 10 ? `${percent}%` : ""}
